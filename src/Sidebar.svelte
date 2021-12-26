@@ -1,6 +1,6 @@
 <section class="hidden-sm">
   <h2 role="heading" aria-level="2"><slot name="title" /></h2>
-  <slot>sidebar</slot>
+  <slot />
 </section>
 
 <style>

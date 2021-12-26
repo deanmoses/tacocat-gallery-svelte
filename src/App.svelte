@@ -6,6 +6,10 @@
   import PageContent from "./PageContent.svelte";
   import Sidebar from "./Sidebar.svelte";
   import MainContent from "./MainContent.svelte";
+  import Thumbnail from "./Thumbnail.svelte";
+  import PrevButton from "./PrevButton.svelte";
+  import UpButton from "./UpButton.svelte";
+  import NextButton from "./NextButton.svelte";
 </script>
 
 <Page>
@@ -13,10 +17,55 @@
     <span slot="title">Dean, Lucie, Felix and Milo Moses</span>
     <span slot="short-title">The Moses Family</span>
   </Header>
-  <Nav />
+  <Nav>
+    <PrevButton title="2020" href="#2020" />
+    <UpButton title="All Years" href="#" />
+    <NextButton title="2022" href="#2022" />
+  </Nav>
   <PageContent>
     <Sidebar>Sidebar</Sidebar>
-    <MainContent>Content</MainContent>
+    <MainContent>
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+      <Thumbnail
+        title="Dec 21"
+        href="#2021/12-20"
+        src="https://cdn.tacocat.com/zenphoto/cache/2021/12-20/xmas_restaurant2_200_w200_h200_cw200_ch200_thumb.jpg?cached=1640062642"
+      />
+    </MainContent>
   </PageContent>
   <Footer />
 </Page>
