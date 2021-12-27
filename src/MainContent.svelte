@@ -1,9 +1,10 @@
-<div class="main-content">
+<section>
+  <h2 role="heading" aria-level="2">Thumbnails</h2>
   <slot />
-</div>
+</section>
 
 <style>
-  .main-content {
+  section {
     flex: 3;
     gap: calc(var(--default-padding) * 2);
     padding: calc(var(--default-padding) * 2);
@@ -14,10 +15,14 @@
   }
 
   @media (max-width: 456px) {
-    .main-content {
+    section {
       display: flex;
       align-items: center;
       justify-content: center;
     }
+  }
+
+  h2 {
+    display: none;
   }
 </style>

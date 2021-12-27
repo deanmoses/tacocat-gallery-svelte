@@ -1,10 +1,5 @@
 <footer>
-  <img
-    src="https://pix.tacocat.com/images/tacocat-logo.png"
-    width="102px"
-    height="19px"
-    alt="logo"
-  />
+  <img src="images/tacocat-logo.png" width="102px" height="19px" alt="logo" />
 </footer>
 
 <style>
