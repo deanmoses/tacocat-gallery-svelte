@@ -5,7 +5,8 @@
 <style>
   .main-content {
     flex: 3;
-    padding: var(--default-padding);
+    gap: calc(var(--default-padding) * 2);
+    padding: calc(var(--default-padding) * 2);
     background-color: white;
     display: flex;
     flex-wrap: wrap;
