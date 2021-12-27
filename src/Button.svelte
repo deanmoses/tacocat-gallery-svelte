@@ -1,8 +1,9 @@
 <script lang="ts">
-  export let href: string = "";
+  export let href: string | null = "";
+  export let disabled: boolean | null;
 </script>
 
-<a class="btn" {href}><slot /></a>
+<a class="btn" {href} {disabled}><slot /></a>
 
 <style>
   .btn {
@@ -23,12 +24,12 @@
   }
 
   /* just nav buttons */
-  .btn[aria-disabled="true"] {
+  .btn[disabled] {
     color: #ccc;
   }
 
   /* all buttons */
-  .btn[aria-disabled="true"] {
+  .btn[disabled] {
     cursor: not-allowed;
     opacity: 0.65;
     box-shadow: none;

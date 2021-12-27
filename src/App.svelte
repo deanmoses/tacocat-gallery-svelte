@@ -20,10 +20,10 @@
   <Nav>
     <PrevButton title="2020" href="#2020" />
     <UpButton title="All Years" href="#" />
-    <NextButton title="2022" href="#2022" />
+    <NextButton disabled />
   </Nav>
   <PageContent>
-    <Sidebar>Sidebar</Sidebar>
+    <Sidebar>sidebar</Sidebar>
     <MainContent>
       <Thumbnail
         title="Dec 20"

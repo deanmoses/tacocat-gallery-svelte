@@ -1,11 +1,12 @@
 <script lang="ts">
   import Button from "./Button.svelte";
 
-  export let href: string = "";
-  export let title: string = "";
+  export let href: string | null = "";
+  export let title: string | null = "";
+  export let disabled: boolean | null;
 </script>
 
-<Button {href}
+<Button {href} {disabled}
   ><svg style="width: 1em; height: 1em;" viewBox="0 0 749 1102">
     <title>Previous</title>
     <path
