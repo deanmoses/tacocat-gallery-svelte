@@ -1,5 +1,14 @@
 <footer>
-  <img src="images/tacocat-logo.png" width="102px" height="19px" alt="logo" />
+  <picture>
+    <source srcset="images/tacocat-logo.webp" />
+    <source srcset="images/tacocat-logo.png" />
+    <img
+      src="images/tacocat-logo.png"
+      width="102px"
+      height="19px"
+      alt="Tacocat Logo"
+    />
+  </picture>
 </footer>
 
 <style>
